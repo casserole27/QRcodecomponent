@@ -1,0 +1,103 @@
+
+/*
+Frontend Mentor
+QR Card Component
+C Lewis
+clewisdev.com
+April 2022
+*/
+
+:root {
+    --card-background-color: hsl(0, 0%, 100%);
+    --body-background-color: hsl(212, 45%, 89%);
+    --bold-text: hsl(218, 44%, 22%);
+    --text: hsl(220, 15%, 55%);
+}
+  
+/****** GLOBAL STYLES ******/
+
+body {
+    font-family: 'Outfit', sans-serif;
+    background-color: black;
+    margin: 0;
+    padding: 0;
+}
+
+h1 {
+    color: var(--bold-text);
+    text-align: center;
+    font-size: 1.5em;
+    padding: .5rem;
+    font-weight: 700;
+}
+
+p {
+    color: var(--text);
+    text-align: center;
+    font-size: 1em;
+    padding-left: 1.5rem;
+    padding-right: 1.5rem;
+    padding-bottom: 1rem;
+    font-weight: 400;
+}
+
+img {
+    width: 100%;
+    height: auto;
+    border-radius: 1rem;
+}
+
+/****** CONTAINERS ******/
+
+.main-container {
+    width: 1200px;
+    background-color: var(--body-background-color);
+    margin: 0 auto;
+    margin-top: 4rem;
+    padding: 8rem;
+}
+
+.card {
+    width: 300px;
+    background-color: var(--card-background-color);
+    margin: 0 auto;
+    padding: 1rem;
+    border-radius: 1rem;
+}
+
+/****** MEDIA QUERIES ******/
+
+@media screen and (max-width: 1000px) {
+    .main-container {
+        width: 375px;
+        margin-top: 0;
+        padding: 5rem 2rem 8rem 2rem;
+    }
+}
+
+/*# Front-end Style Guide
+
+## Layout
+
+The designs were created to the following widths:
+
+- Mobile: 375px
+- Desktop: 1440px
+
+## Colors
+
+- White: hsl(0, 0%, 100%)
+- Light gray: hsl(212, 45%, 89%)
+- Grayish blue: hsl(220, 15%, 55%)
+- Dark blue: hsl(218, 44%, 22%)
+
+## Typography
+
+### Body Copy
+
+- Font size (paragraph): 15px
+
+### Font
+
+- Family: [Outfit](https://fonts.google.com/specimen/Outfit)
+- Weights: 400, 700*/
