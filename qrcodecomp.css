@@ -18,7 +18,7 @@ April 2022
 
 body {
     font-family: 'Outfit', sans-serif;
-    background-color: black;
+    background-color: var(--body-background-color);
     margin: 0;
     padding: 0;
     display: flex;
@@ -68,15 +68,6 @@ img {
     border-radius: 1rem;
 }
 
-/****** MEDIA QUERIES ******/
-
-@media screen and (max-width: 1000px) {
-    
-    body {
-        background-color: var(--body-background-color);
-    }   
-    
-}
 
 /*# Front-end Style Guide
 
