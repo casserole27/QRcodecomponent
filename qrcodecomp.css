@@ -50,11 +50,10 @@ img {
 /****** CONTAINERS ******/
 
 .main-container {
-    width: 1200px;
+    width: 1080px;
     background-color: var(--body-background-color);
     margin: 0 auto;
-    margin-top: 4rem;
-    padding: 8rem;
+    padding: 5rem;
 }
 
 .card {
@@ -68,12 +67,16 @@ img {
 /****** MEDIA QUERIES ******/
 
 @media screen and (max-width: 1000px) {
+    
+    body {
+        background-color: var(--body-background-color);
+    }   
+    
     .main-container {
         width: 375px;
-        margin-top: 0;
-        padding: 5rem 2rem 8rem 2rem;
-    }
-}
+        padding: 4.5rem 0;
+    }   
+    
 
 /*# Front-end Style Guide
 
