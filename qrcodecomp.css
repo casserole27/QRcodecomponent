@@ -21,6 +21,9 @@ body {
     background-color: black;
     margin: 0;
     padding: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
 
 h1 {
@@ -52,14 +55,15 @@ img {
 .main-container {
     width: 1080px;
     background-color: var(--body-background-color);
-    margin: 0 auto;
     padding: 5rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
 
 .card {
     width: 300px;
     background-color: var(--card-background-color);
-    margin: 0 auto;
     padding: 1rem;
     border-radius: 1rem;
 }
@@ -72,11 +76,7 @@ img {
         background-color: var(--body-background-color);
     }   
     
-    .main-container {
-        width: 375px;
-        padding: 4.5rem 0;
-    }   
-    
+}
 
 /*# Front-end Style Guide
 
